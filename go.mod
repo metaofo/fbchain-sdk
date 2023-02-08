@@ -3,7 +3,7 @@ module github.com/metaofo/fbchain-sdk
 go 1.16
 
 require (
-	github.com/FiboChain/fbc v0.0.0-20221214201129-20ee108abc74
+	github.com/FiboChain/fbc v0.0.0-00010101000000-000000000000
 	github.com/bartekn/go-bip39 v0.0.0-20171116152956-a05967ea095d
 	github.com/ethereum/go-ethereum v1.10.8
 	github.com/golang/mock v1.6.0
