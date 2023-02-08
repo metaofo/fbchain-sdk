@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/mocks"
-	"github.com/FiboChain/fbchain-sdk/module/auth"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
 	"github.com/golang/mock/gomock"
+	"github.com/metaofo/fbchain-sdk/mocks"
+	"github.com/metaofo/fbchain-sdk/module/auth"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 	"github.com/stretchr/testify/require"
 )
 
@@ -36,7 +36,7 @@ func TestDexClient_EditDexOperator(t *testing.T) {
 	mockCli.EXPECT().BuildAndBroadcast(
 		fromInfo.GetName(), passWd, memo, gomock.AssignableToTypeOf([]sdk.Msg{}), accInfo.GetAccountNumber(), accInfo.GetSequence()).
 		Return(mocks.DefaultMockSuccessTxResponse(), nil)
-	res, err := mockCli.Dex().EditDexOperator(fromInfo, passWd, addr, "https://github.com/FiboChain/fbchain-sdk", memo,
+	res, err := mockCli.Dex().EditDexOperator(fromInfo, passWd, addr, "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.NoError(t, err)
 	require.Equal(t, uint32(0), res.Code)
@@ -44,15 +44,15 @@ func TestDexClient_EditDexOperator(t *testing.T) {
 	mockCli.EXPECT().BuildAndBroadcast(
 		fromInfo.GetName(), passWd, memo, gomock.AssignableToTypeOf([]sdk.Msg{}), accInfo.GetAccountNumber(), accInfo.GetSequence()).
 		Return(mocks.DefaultMockSuccessTxResponse(), errors.New("default error"))
-	_, err = mockCli.Dex().EditDexOperator(fromInfo, passWd, addr, "https://github.com/FiboChain/fbchain-sdk", memo,
+	_, err = mockCli.Dex().EditDexOperator(fromInfo, passWd, addr, "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.Error(t, err)
 
-	_, err = mockCli.Dex().EditDexOperator(fromInfo, passWd, addr[1:], "https://github.com/FiboChain/fbchain-sdk", memo,
+	_, err = mockCli.Dex().EditDexOperator(fromInfo, passWd, addr[1:], "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.Error(t, err)
 
-	_, err = mockCli.Dex().EditDexOperator(fromInfo, "", addr, "https://github.com/FiboChain/fbchain-sdk", memo,
+	_, err = mockCli.Dex().EditDexOperator(fromInfo, "", addr, "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.Error(t, err)
 }
@@ -80,7 +80,7 @@ func TestDexClient_RegisterDexOperator(t *testing.T) {
 	mockCli.EXPECT().BuildAndBroadcast(
 		fromInfo.GetName(), passWd, memo, gomock.AssignableToTypeOf([]sdk.Msg{}), accInfo.GetAccountNumber(), accInfo.GetSequence()).
 		Return(mocks.DefaultMockSuccessTxResponse(), nil)
-	res, err := mockCli.Dex().RegisterDexOperator(fromInfo, passWd, addr, "https://github.com/FiboChain/fbchain-sdk", memo,
+	res, err := mockCli.Dex().RegisterDexOperator(fromInfo, passWd, addr, "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.NoError(t, err)
 	require.Equal(t, uint32(0), res.Code)
@@ -88,15 +88,15 @@ func TestDexClient_RegisterDexOperator(t *testing.T) {
 	mockCli.EXPECT().BuildAndBroadcast(
 		fromInfo.GetName(), passWd, memo, gomock.AssignableToTypeOf([]sdk.Msg{}), accInfo.GetAccountNumber(), accInfo.GetSequence()).
 		Return(mocks.DefaultMockSuccessTxResponse(), errors.New("default error"))
-	_, err = mockCli.Dex().RegisterDexOperator(fromInfo, passWd, addr, "https://github.com/FiboChain/fbchain-sdk", memo,
+	_, err = mockCli.Dex().RegisterDexOperator(fromInfo, passWd, addr, "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.Error(t, err)
 
-	_, err = mockCli.Dex().RegisterDexOperator(fromInfo, passWd, addr[1:], "https://github.com/FiboChain/fbchain-sdk", memo,
+	_, err = mockCli.Dex().RegisterDexOperator(fromInfo, passWd, addr[1:], "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.Error(t, err)
 
-	_, err = mockCli.Dex().RegisterDexOperator(fromInfo, "", addr, "https://github.com/FiboChain/fbchain-sdk", memo,
+	_, err = mockCli.Dex().RegisterDexOperator(fromInfo, "", addr, "https://github.com/metaofo/fbchain-sdk", memo,
 		accInfo.GetAccountNumber(), accInfo.GetSequence())
 	require.Error(t, err)
 }

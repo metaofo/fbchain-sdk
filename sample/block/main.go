@@ -9,7 +9,7 @@ import (
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	client_types "github.com/FiboChain/fbc/libs/ibc-go/modules/core/02-client/types"
 	"github.com/FiboChain/fbc/x/evm/watcher"
-	gosdk "github.com/FiboChain/fbchain-sdk"
+	gosdk "github.com/metaofo/fbchain-sdk"
 
 	tmtypes "github.com/FiboChain/fbc/libs/tendermint/types"
 	"github.com/ethereum/go-ethereum/common"

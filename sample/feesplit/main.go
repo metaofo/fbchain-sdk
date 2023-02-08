@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/types/query"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/utils"
 	"log"
 
-	gosdk "github.com/FiboChain/fbchain-sdk"
+	gosdk "github.com/metaofo/fbchain-sdk"
 )
 
 const (

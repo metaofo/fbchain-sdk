@@ -2,8 +2,8 @@ package exposed
 
 import (
 	ctypes "github.com/FiboChain/fbc/libs/tendermint/rpc/core/types"
-	"github.com/FiboChain/fbchain-sdk/module/tendermint/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/module/tendermint/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 // Tendermint shows the expected behavior for inner tendermint client

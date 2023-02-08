@@ -5,7 +5,7 @@ import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
 	"github.com/FiboChain/fbc/libs/ibc-go/modules/apps/transfer/types"
 
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 const (

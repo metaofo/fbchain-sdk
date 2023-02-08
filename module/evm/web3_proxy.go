@@ -12,12 +12,12 @@ import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/exported"
 	authtypes "github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/types"
 	evmtypes "github.com/FiboChain/fbc/x/evm/types"
-	"github.com/FiboChain/fbchain-sdk/exposed"
-	"github.com/FiboChain/fbchain-sdk/module/evm/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/metaofo/fbchain-sdk/exposed"
+	"github.com/metaofo/fbchain-sdk/module/evm/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // Web3Proxy returns the client with exposed.Web3Proxy's behaviour

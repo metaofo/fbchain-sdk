@@ -1,8 +1,8 @@
 package exposed
 
 import (
-	"github.com/FiboChain/fbchain-sdk/module/auth/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/module/auth/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 // Auth shows the expected behavior for inner auth client

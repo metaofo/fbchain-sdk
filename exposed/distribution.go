@@ -3,7 +3,7 @@ package exposed
 import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 // Distribution shows the expected behavior for inner distribution client

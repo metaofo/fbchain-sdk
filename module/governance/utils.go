@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/FiboChain/fbchain-sdk/module/governance/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/module/governance/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 func parseProposalFromFile(path string) (proposal types.ProposalJSON, err error) {

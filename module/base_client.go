@@ -10,9 +10,9 @@ import (
 	tmbytes "github.com/FiboChain/fbc/libs/tendermint/libs/bytes"
 	rpcclient "github.com/FiboChain/fbc/libs/tendermint/rpc/client"
 	rpchttp "github.com/FiboChain/fbc/libs/tendermint/rpc/client/http"
-	"github.com/FiboChain/fbchain-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/types/tx"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/types/tx"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 const (

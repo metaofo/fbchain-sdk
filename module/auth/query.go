@@ -7,8 +7,8 @@ import (
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth"
 	authtypes "github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/types"
-	"github.com/FiboChain/fbchain-sdk/module/auth/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/module/auth/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // QueryAccount gets the account info

@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/FiboChain/fbc/x/token"
-	"github.com/FiboChain/fbchain-sdk/module/token/types"
-	"github.com/FiboChain/fbchain-sdk/types/params"
+	"github.com/metaofo/fbchain-sdk/module/token/types"
+	"github.com/metaofo/fbchain-sdk/types/params"
 )
 
 // QueryTokenInfo gets token info with a specific symbol or the owner address

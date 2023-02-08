@@ -3,9 +3,9 @@ package evm
 import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
 	evm "github.com/FiboChain/fbc/x/evm/types"
-	"github.com/FiboChain/fbchain-sdk/exposed"
-	"github.com/FiboChain/fbchain-sdk/module/evm/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/exposed"
+	"github.com/metaofo/fbchain-sdk/module/evm/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 var _ gosdktypes.Module = (*evmClient)(nil)

@@ -7,8 +7,8 @@ import (
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	"github.com/FiboChain/fbc/x/common"
 	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
-	"github.com/FiboChain/fbchain-sdk/types/params"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/types/params"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // Deposit deposits an amount of fibo to delegator account

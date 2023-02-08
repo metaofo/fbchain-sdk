@@ -6,17 +6,18 @@ import (
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	govutils "github.com/FiboChain/fbc/x/gov/client/utils"
 	govtypes "github.com/FiboChain/fbc/x/gov/types"
-	"github.com/FiboChain/fbchain-sdk/module/governance/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/module/governance/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // QueryProposals gets all proposals
 // Note:
+//
 //	optional:
 //		status option - DepositPeriod|VotingPeriod|Passed|Rejected. Defaults to all proposals by ""
 //		depositorAddrStr - filter by proposals deposited on by depositor. Defaults to all proposals by ""
 //		voterAddrStr - filter by proposals voted on by voted. Defaults to all proposals by ""
-// 		numLimit - limit to latest [number] proposals. Defaults to all proposals by 0
+//		numLimit - limit to latest [number] proposals. Defaults to all proposals by 0
 func (gc govClient) QueryProposals(depositorAddrStr, voterAddrStr, status string, numLimit uint64) (
 	proposals []types.Proposal, err error) {
 	var depositorAddr, voterAddr sdk.AccAddress

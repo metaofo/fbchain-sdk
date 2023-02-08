@@ -7,8 +7,8 @@ import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	ordertypes "github.com/FiboChain/fbc/x/order/types"
-	"github.com/FiboChain/fbchain-sdk/types/params"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/types/params"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // NewOrders places orders with some detail info

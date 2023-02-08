@@ -6,9 +6,9 @@ import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	tokentypes "github.com/FiboChain/fbc/x/token/types"
-	"github.com/FiboChain/fbchain-sdk/module/token/types"
-	"github.com/FiboChain/fbchain-sdk/types/params"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/module/token/types"
+	"github.com/metaofo/fbchain-sdk/types/params"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // Send transfers coins to other receiver

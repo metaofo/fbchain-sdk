@@ -3,8 +3,8 @@ package exposed
 import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/module/governance/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/module/governance/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 // Governance shows the expected behavior for inner governance client

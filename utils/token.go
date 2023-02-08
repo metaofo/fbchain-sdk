@@ -6,13 +6,14 @@ import (
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	tokentypes "github.com/FiboChain/fbc/x/token/types"
-	"github.com/FiboChain/fbchain-sdk/module/token/types"
+	"github.com/metaofo/fbchain-sdk/module/token/types"
 )
 
 // ParseTransfersStr parses the whole multi-send info string into TransferUnit
 // Example:
 // `addr1 1fibo
-// 	addr2 2fibo`
+//
+//	addr2 2fibo`
 func ParseTransfersStr(str string) ([]types.TransferUnit, error) {
 	strs := strings.Split(strings.TrimSpace(str), "\n")
 	transLen := len(strs)

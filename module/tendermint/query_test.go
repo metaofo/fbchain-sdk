@@ -12,9 +12,9 @@ import (
 	tmbytes "github.com/FiboChain/fbc/libs/tendermint/libs/bytes"
 	tmtypes "github.com/FiboChain/fbc/libs/tendermint/types"
 	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
-	"github.com/FiboChain/fbchain-sdk/mocks"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
 	"github.com/golang/mock/gomock"
+	"github.com/metaofo/fbchain-sdk/mocks"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 

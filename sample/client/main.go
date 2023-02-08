@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	gosdk "github.com/FiboChain/fbchain-sdk"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	gosdk "github.com/metaofo/fbchain-sdk"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 const (

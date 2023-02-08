@@ -12,10 +12,10 @@ import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	tmamino "github.com/FiboChain/fbc/libs/tendermint/crypto/encoding/amino"
-	"github.com/FiboChain/fbchain-sdk/types/tx"
 	"github.com/bartekn/go-bip39"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
+	"github.com/metaofo/fbchain-sdk/types/tx"
 )
 
 const (

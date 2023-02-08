@@ -5,7 +5,7 @@ import (
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/types/query"
 	"github.com/FiboChain/fbc/x/feesplit/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 // Feesplit shows the expected behavior for inner Feesplit client

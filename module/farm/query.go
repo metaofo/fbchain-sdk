@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	farmtypes "github.com/FiboChain/fbc/x/farm/types"
-	"github.com/FiboChain/fbchain-sdk/module/farm/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/module/farm/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // QueryPools gets all farm pools info

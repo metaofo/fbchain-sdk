@@ -13,7 +13,7 @@ import (
 	govtypes "github.com/FiboChain/fbc/x/gov/types"
 	paramsutils "github.com/FiboChain/fbc/x/params/client/utils"
 	paramstypes "github.com/FiboChain/fbc/x/params/types"
-	"github.com/FiboChain/fbchain-sdk/types/params"
+	"github.com/metaofo/fbchain-sdk/types/params"
 )
 
 // SubmitTextProposal submits the text proposal on FbChain

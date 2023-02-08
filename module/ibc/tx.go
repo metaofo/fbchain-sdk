@@ -3,7 +3,7 @@ package ibc
 import (
 	"fmt"
 	ibcmsg "github.com/FiboChain/fbc/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/FiboChain/fbchain-sdk/module/auth"
+	"github.com/metaofo/fbchain-sdk/module/auth"
 	"math/big"
 	"strings"
 
@@ -17,8 +17,8 @@ import (
 	ibc_type "github.com/FiboChain/fbc/libs/ibc-go/modules/apps/transfer/types"
 	client_types "github.com/FiboChain/fbc/libs/ibc-go/modules/core/02-client/types"
 	tmcrypto "github.com/FiboChain/fbc/libs/tendermint/crypto"
-	"github.com/FiboChain/fbchain-sdk/module"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/module"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 const (

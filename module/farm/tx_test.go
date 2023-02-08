@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/mocks"
-	"github.com/FiboChain/fbchain-sdk/module/auth"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
 	"github.com/golang/mock/gomock"
+	"github.com/metaofo/fbchain-sdk/mocks"
+	"github.com/metaofo/fbchain-sdk/module/auth"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 	"github.com/stretchr/testify/require"
 )
 

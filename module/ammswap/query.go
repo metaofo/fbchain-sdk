@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	ammswaptypes "github.com/FiboChain/fbc/x/ammswap/types"
-	"github.com/FiboChain/fbchain-sdk/module/ammswap/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/module/ammswap/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // QuerySwapTokenPair used for querying one swap token pair

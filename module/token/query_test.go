@@ -7,9 +7,9 @@ import (
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	"github.com/FiboChain/fbc/x/token"
-	"github.com/FiboChain/fbchain-sdk/mocks"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
 	"github.com/golang/mock/gomock"
+	"github.com/metaofo/fbchain-sdk/mocks"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 

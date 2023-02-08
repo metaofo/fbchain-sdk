@@ -1,4 +1,4 @@
-module github.com/FiboChain/fbchain-sdk
+module github.com/metaofo/fbchain-sdk
 
 go 1.16
 

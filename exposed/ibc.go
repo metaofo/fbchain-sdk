@@ -1,7 +1,7 @@
 package exposed
 
 import (
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/types/query"

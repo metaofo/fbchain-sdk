@@ -3,16 +3,16 @@ package gosdk
 import (
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	farm "github.com/FiboChain/fbc/x/farm/types"
-	ammswap "github.com/FiboChain/fbchain-sdk/module/ammswap/types"
-	auth "github.com/FiboChain/fbchain-sdk/module/auth/types"
-	dex "github.com/FiboChain/fbchain-sdk/module/dex/types"
-	evm "github.com/FiboChain/fbchain-sdk/module/evm/types"
-	governance "github.com/FiboChain/fbchain-sdk/module/governance/types"
-	order "github.com/FiboChain/fbchain-sdk/module/order/types"
-	staking "github.com/FiboChain/fbchain-sdk/module/staking/types"
-	tendermint "github.com/FiboChain/fbchain-sdk/module/tendermint/types"
-	token "github.com/FiboChain/fbchain-sdk/module/token/types"
-	"github.com/FiboChain/fbchain-sdk/types"
+	ammswap "github.com/metaofo/fbchain-sdk/module/ammswap/types"
+	auth "github.com/metaofo/fbchain-sdk/module/auth/types"
+	dex "github.com/metaofo/fbchain-sdk/module/dex/types"
+	evm "github.com/metaofo/fbchain-sdk/module/evm/types"
+	governance "github.com/metaofo/fbchain-sdk/module/governance/types"
+	order "github.com/metaofo/fbchain-sdk/module/order/types"
+	staking "github.com/metaofo/fbchain-sdk/module/staking/types"
+	tendermint "github.com/metaofo/fbchain-sdk/module/tendermint/types"
+	token "github.com/metaofo/fbchain-sdk/module/token/types"
+	"github.com/metaofo/fbchain-sdk/types"
 )
 
 // const

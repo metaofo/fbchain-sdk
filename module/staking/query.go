@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
-	"github.com/FiboChain/fbchain-sdk/module/staking/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	"github.com/metaofo/fbchain-sdk/module/staking/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 )
 
 // QueryValidators gets all the validators info

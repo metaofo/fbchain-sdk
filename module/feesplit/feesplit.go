@@ -4,7 +4,7 @@ import (
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/client/context"
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
 	"github.com/FiboChain/fbc/x/feesplit/types"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 )
 
 const (

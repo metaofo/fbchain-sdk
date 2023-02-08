@@ -4,8 +4,8 @@ import (
 	"fmt"
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	client_types "github.com/FiboChain/fbc/libs/ibc-go/modules/core/02-client/types"
-	gosdk "github.com/FiboChain/fbchain-sdk"
-	"github.com/FiboChain/fbchain-sdk/utils"
+	gosdk "github.com/metaofo/fbchain-sdk"
+	"github.com/metaofo/fbchain-sdk/utils"
 
 	"log"
 )

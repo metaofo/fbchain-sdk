@@ -8,8 +8,8 @@ import (
 
 	coretypes "github.com/FiboChain/fbc/libs/tendermint/rpc/core/types"
 	tmtypes "github.com/FiboChain/fbc/libs/tendermint/types"
-	"github.com/FiboChain/fbchain-sdk/module/tendermint/types"
-	"github.com/FiboChain/fbchain-sdk/types/params"
+	"github.com/metaofo/fbchain-sdk/module/tendermint/types"
+	"github.com/metaofo/fbchain-sdk/types/params"
 )
 
 // QueryBlock gets the block info of a specific height

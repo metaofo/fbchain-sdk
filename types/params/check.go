@@ -8,7 +8,7 @@ import (
 
 	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
 	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	tokentypes "github.com/FiboChain/fbchain-sdk/module/token/types"
+	tokentypes "github.com/metaofo/fbchain-sdk/module/token/types"
 )
 
 const (

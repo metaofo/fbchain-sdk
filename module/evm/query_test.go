@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	evmtypes "github.com/FiboChain/fbc/x/evm/types"
-	"github.com/FiboChain/fbchain-sdk/mocks"
-	gosdktypes "github.com/FiboChain/fbchain-sdk/types"
-	"github.com/FiboChain/fbchain-sdk/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
+	"github.com/metaofo/fbchain-sdk/mocks"
+	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/metaofo/fbchain-sdk/utils"
 	"github.com/stretchr/testify/require"
 )
 
