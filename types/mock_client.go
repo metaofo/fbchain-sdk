@@ -5,15 +5,15 @@
 package types
 
 import (
-	tmtypes "github.com/FiboChain/fbc/libs/tendermint/types"
+	tmtypes "github.com/zhengjianfeng1103/fbc/libs/tendermint/types"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	codec "github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	types "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	types0 "github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/types"
-	bytes "github.com/FiboChain/fbc/libs/tendermint/libs/bytes"
-	types1 "github.com/FiboChain/fbc/libs/tendermint/rpc/core/types"
+	codec "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	types "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	types0 "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/x/auth/types"
+	bytes "github.com/zhengjianfeng1103/fbc/libs/tendermint/libs/bytes"
+	types1 "github.com/zhengjianfeng1103/fbc/libs/tendermint/rpc/core/types"
 )
 
 // MockBaseClient is a mock of BaseClient interface.

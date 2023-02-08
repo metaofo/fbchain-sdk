@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/FiboChain/fbc/x/token"
-	tokentypes "github.com/FiboChain/fbc/x/token/types"
+	"github.com/zhengjianfeng1103/fbc/x/token"
+	tokentypes "github.com/zhengjianfeng1103/fbc/x/token/types"
 )
 
 // const

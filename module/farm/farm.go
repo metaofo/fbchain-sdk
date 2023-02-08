@@ -1,11 +1,11 @@
 package farm
 
 import (
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	farm "github.com/FiboChain/fbc/x/farm/types"
 	"github.com/metaofo/fbchain-sdk/exposed"
 	"github.com/metaofo/fbchain-sdk/module/farm/types"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	farm "github.com/zhengjianfeng1103/fbc/x/farm/types"
 )
 
 type farmClient struct {

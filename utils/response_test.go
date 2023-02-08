@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/FiboChain/fbc/x/common"
 	"github.com/stretchr/testify/require"
+	"github.com/zhengjianfeng1103/fbc/x/common"
 )
 
 // custom struct for test

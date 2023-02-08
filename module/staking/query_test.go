@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	tmbytes "github.com/FiboChain/fbc/libs/tendermint/libs/bytes"
-	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
 	"github.com/golang/mock/gomock"
 	"github.com/metaofo/fbchain-sdk/mocks"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 	"github.com/stretchr/testify/require"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	tmbytes "github.com/zhengjianfeng1103/fbc/libs/tendermint/libs/bytes"
+	stakingtypes "github.com/zhengjianfeng1103/fbc/x/staking/types"
 )
 
 const (

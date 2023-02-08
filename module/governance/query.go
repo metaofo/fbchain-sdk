@@ -3,11 +3,11 @@ package governance
 import (
 	"fmt"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	govutils "github.com/FiboChain/fbc/x/gov/client/utils"
-	govtypes "github.com/FiboChain/fbc/x/gov/types"
 	"github.com/metaofo/fbchain-sdk/module/governance/types"
 	"github.com/metaofo/fbchain-sdk/utils"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	govutils "github.com/zhengjianfeng1103/fbc/x/gov/client/utils"
+	govtypes "github.com/zhengjianfeng1103/fbc/x/gov/types"
 )
 
 // QueryProposals gets all proposals

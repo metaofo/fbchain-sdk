@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth"
-	authtypes "github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/types"
 	"github.com/metaofo/fbchain-sdk/module/auth/types"
 	"github.com/metaofo/fbchain-sdk/utils"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/x/auth"
+	authtypes "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/x/auth/types"
 )
 
 // QueryAccount gets the account info

@@ -1,12 +1,12 @@
 package governance
 
 import (
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	"github.com/FiboChain/fbc/x/gov"
-	paramstypes "github.com/FiboChain/fbc/x/params/types"
 	"github.com/metaofo/fbchain-sdk/exposed"
 	"github.com/metaofo/fbchain-sdk/module/governance/types"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	"github.com/zhengjianfeng1103/fbc/x/gov"
+	paramstypes "github.com/zhengjianfeng1103/fbc/x/params/types"
 )
 
 var _ gosdktypes.Module = (*govClient)(nil)

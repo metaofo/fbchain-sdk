@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	evmtypes "github.com/FiboChain/fbc/x/evm/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/metaofo/fbchain-sdk/module/evm/types"
 	"github.com/metaofo/fbchain-sdk/utils"
+	evmtypes "github.com/zhengjianfeng1103/fbc/x/evm/types"
 )
 
 // QueryCode gets the contract code from FbChain

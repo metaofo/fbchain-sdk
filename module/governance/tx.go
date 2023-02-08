@@ -1,19 +1,19 @@
 package governance
 
 import (
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	dexutils "github.com/FiboChain/fbc/x/dex/client/utils"
-	dextypes "github.com/FiboChain/fbc/x/dex/types"
-	distrcli "github.com/FiboChain/fbc/x/distribution/client/cli"
-	distrtypes "github.com/FiboChain/fbc/x/distribution/types"
-	farmutils "github.com/FiboChain/fbc/x/farm/client/utils"
-	farmtypes "github.com/FiboChain/fbc/x/farm/types"
-	govutils "github.com/FiboChain/fbc/x/gov/client/utils"
-	govtypes "github.com/FiboChain/fbc/x/gov/types"
-	paramsutils "github.com/FiboChain/fbc/x/params/client/utils"
-	paramstypes "github.com/FiboChain/fbc/x/params/types"
 	"github.com/metaofo/fbchain-sdk/types/params"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	dexutils "github.com/zhengjianfeng1103/fbc/x/dex/client/utils"
+	dextypes "github.com/zhengjianfeng1103/fbc/x/dex/types"
+	distrcli "github.com/zhengjianfeng1103/fbc/x/distribution/client/cli"
+	distrtypes "github.com/zhengjianfeng1103/fbc/x/distribution/types"
+	farmutils "github.com/zhengjianfeng1103/fbc/x/farm/client/utils"
+	farmtypes "github.com/zhengjianfeng1103/fbc/x/farm/types"
+	govutils "github.com/zhengjianfeng1103/fbc/x/gov/client/utils"
+	govtypes "github.com/zhengjianfeng1103/fbc/x/gov/types"
+	paramsutils "github.com/zhengjianfeng1103/fbc/x/params/client/utils"
+	paramstypes "github.com/zhengjianfeng1103/fbc/x/params/types"
 )
 
 // SubmitTextProposal submits the text proposal on FbChain

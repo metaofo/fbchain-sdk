@@ -1,8 +1,8 @@
 package types
 
 import (
-	ctypes "github.com/FiboChain/fbc/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/FiboChain/fbc/libs/tendermint/types"
+	ctypes "github.com/zhengjianfeng1103/fbc/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/zhengjianfeng1103/fbc/libs/tendermint/types"
 )
 
 // const

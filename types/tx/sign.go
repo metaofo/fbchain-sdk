@@ -1,9 +1,9 @@
 package tx
 
 import (
-	"github.com/FiboChain/fbc/app/crypto/hd"
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	authtypes "github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/types"
+	"github.com/zhengjianfeng1103/fbc/app/crypto/hd"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	authtypes "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/x/auth/types"
 )
 
 var (

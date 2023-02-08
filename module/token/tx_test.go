@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	"github.com/golang/mock/gomock"
 	"github.com/metaofo/fbchain-sdk/mocks"
 	"github.com/metaofo/fbchain-sdk/module/auth"
@@ -14,6 +13,7 @@ import (
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 	"github.com/metaofo/fbchain-sdk/utils"
 	"github.com/stretchr/testify/require"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
 )
 
 func TestTokenClient_Send(t *testing.T) {

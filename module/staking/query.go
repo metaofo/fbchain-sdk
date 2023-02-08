@@ -3,10 +3,10 @@ package staking
 import (
 	"fmt"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
 	"github.com/metaofo/fbchain-sdk/module/staking/types"
 	"github.com/metaofo/fbchain-sdk/utils"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	stakingtypes "github.com/zhengjianfeng1103/fbc/x/staking/types"
 )
 
 // QueryValidators gets all the validators info

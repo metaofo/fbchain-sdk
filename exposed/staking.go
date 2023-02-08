@@ -1,10 +1,10 @@
 package exposed
 
 import (
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
 	"github.com/metaofo/fbchain-sdk/module/staking/types"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
 )
 
 // Staking shows the expected behavior for inner staking client

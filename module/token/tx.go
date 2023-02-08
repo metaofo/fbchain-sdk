@@ -3,12 +3,12 @@ package token
 import (
 	"fmt"
 
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	tokentypes "github.com/FiboChain/fbc/x/token/types"
 	"github.com/metaofo/fbchain-sdk/module/token/types"
 	"github.com/metaofo/fbchain-sdk/types/params"
 	"github.com/metaofo/fbchain-sdk/utils"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	tokentypes "github.com/zhengjianfeng1103/fbc/x/token/types"
 )
 
 // Send transfers coins to other receiver

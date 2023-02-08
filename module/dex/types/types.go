@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/FiboChain/fbc/x/common"
-	dextypes "github.com/FiboChain/fbc/x/dex/types"
+	"github.com/zhengjianfeng1103/fbc/x/common"
+	dextypes "github.com/zhengjianfeng1103/fbc/x/dex/types"
 )
 
 // const

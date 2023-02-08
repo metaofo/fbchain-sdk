@@ -1,11 +1,11 @@
 package ammswap
 
 import (
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	"github.com/FiboChain/fbc/x/ammswap"
 	"github.com/metaofo/fbchain-sdk/exposed"
 	"github.com/metaofo/fbchain-sdk/module/ammswap/types"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	"github.com/zhengjianfeng1103/fbc/x/ammswap"
 )
 
 var _ gosdktypes.Module = (*ammswapClient)(nil)

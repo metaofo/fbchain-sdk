@@ -1,10 +1,10 @@
 package tendermint
 
 import (
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
 	"github.com/metaofo/fbchain-sdk/exposed"
 	"github.com/metaofo/fbchain-sdk/module/tendermint/types"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
 )
 
 var _ gosdktypes.Module = (*tendermintClient)(nil)

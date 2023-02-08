@@ -1,7 +1,7 @@
 package types
 
 import (
-	farmtypes "github.com/FiboChain/fbc/x/farm/types"
+	farmtypes "github.com/zhengjianfeng1103/fbc/x/farm/types"
 )
 
 const (

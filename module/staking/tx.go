@@ -3,12 +3,12 @@ package staking
 import (
 	"fmt"
 
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	"github.com/FiboChain/fbc/x/common"
-	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
 	"github.com/metaofo/fbchain-sdk/types/params"
 	"github.com/metaofo/fbchain-sdk/utils"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/x/common"
+	stakingtypes "github.com/zhengjianfeng1103/fbc/x/staking/types"
 )
 
 // Deposit deposits an amount of fibo to delegator account

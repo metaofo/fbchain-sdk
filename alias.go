@@ -1,8 +1,6 @@
 package gosdk
 
 import (
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	farm "github.com/FiboChain/fbc/x/farm/types"
 	ammswap "github.com/metaofo/fbchain-sdk/module/ammswap/types"
 	auth "github.com/metaofo/fbchain-sdk/module/auth/types"
 	dex "github.com/metaofo/fbchain-sdk/module/dex/types"
@@ -13,6 +11,8 @@ import (
 	tendermint "github.com/metaofo/fbchain-sdk/module/tendermint/types"
 	token "github.com/metaofo/fbchain-sdk/module/token/types"
 	"github.com/metaofo/fbchain-sdk/types"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	farm "github.com/zhengjianfeng1103/fbc/x/farm/types"
 )
 
 // const

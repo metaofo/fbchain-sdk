@@ -3,10 +3,10 @@ package ammswap
 import (
 	"fmt"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	ammswaptypes "github.com/FiboChain/fbc/x/ammswap/types"
 	"github.com/metaofo/fbchain-sdk/module/ammswap/types"
 	"github.com/metaofo/fbchain-sdk/utils"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	ammswaptypes "github.com/zhengjianfeng1103/fbc/x/ammswap/types"
 )
 
 // QuerySwapTokenPair used for querying one swap token pair

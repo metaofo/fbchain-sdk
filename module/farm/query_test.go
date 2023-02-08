@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	tmbytes "github.com/FiboChain/fbc/libs/tendermint/libs/bytes"
-	farmtypes "github.com/FiboChain/fbc/x/farm/types"
 	"github.com/golang/mock/gomock"
 	"github.com/metaofo/fbchain-sdk/mocks"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 	"github.com/stretchr/testify/require"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	tmbytes "github.com/zhengjianfeng1103/fbc/libs/tendermint/libs/bytes"
+	farmtypes "github.com/zhengjianfeng1103/fbc/x/farm/types"
 )
 
 const (

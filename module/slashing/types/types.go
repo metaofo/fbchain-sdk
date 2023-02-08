@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/FiboChain/fbc/x/slashing"
+	"github.com/zhengjianfeng1103/fbc/x/slashing"
 )
 
 // const

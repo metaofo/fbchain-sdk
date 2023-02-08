@@ -2,23 +2,23 @@ package ibc
 
 import (
 	"fmt"
-	ibcmsg "github.com/FiboChain/fbc/libs/cosmos-sdk/types/ibc-adapter"
 	"github.com/metaofo/fbchain-sdk/module/auth"
+	ibcmsg "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types/ibc-adapter"
 	"math/big"
 	"strings"
 
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/client"
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	codec_types "github.com/FiboChain/fbc/libs/cosmos-sdk/codec/types"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	signing "github.com/FiboChain/fbc/libs/cosmos-sdk/types/tx/signing"
-	ibc_tx "github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/ibc-tx"
-	signing2 "github.com/FiboChain/fbc/libs/cosmos-sdk/x/auth/ibcsigning"
-	ibc_type "github.com/FiboChain/fbc/libs/ibc-go/modules/apps/transfer/types"
-	client_types "github.com/FiboChain/fbc/libs/ibc-go/modules/core/02-client/types"
-	tmcrypto "github.com/FiboChain/fbc/libs/tendermint/crypto"
 	"github.com/metaofo/fbchain-sdk/module"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/client"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	codec_types "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec/types"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	signing "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types/tx/signing"
+	ibc_tx "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/x/auth/ibc-tx"
+	signing2 "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/x/auth/ibcsigning"
+	ibc_type "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/apps/transfer/types"
+	client_types "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/core/02-client/types"
+	tmcrypto "github.com/zhengjianfeng1103/fbc/libs/tendermint/crypto"
 )
 
 const (

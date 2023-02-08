@@ -1,8 +1,8 @@
 package types
 
 import (
-	stakingcli "github.com/FiboChain/fbc/x/staking/client/cli"
-	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
+	stakingcli "github.com/zhengjianfeng1103/fbc/x/staking/client/cli"
+	stakingtypes "github.com/zhengjianfeng1103/fbc/x/staking/types"
 )
 
 // const

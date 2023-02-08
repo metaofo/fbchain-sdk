@@ -1,11 +1,11 @@
 package staking
 
 import (
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	"github.com/FiboChain/fbc/x/staking"
 	"github.com/metaofo/fbchain-sdk/exposed"
 	"github.com/metaofo/fbchain-sdk/module/staking/types"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	"github.com/zhengjianfeng1103/fbc/x/staking"
 )
 
 var _ gosdktypes.Module = (*stakingClient)(nil)

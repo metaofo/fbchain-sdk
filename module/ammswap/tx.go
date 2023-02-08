@@ -3,10 +3,10 @@ package ammswap
 import (
 	"time"
 
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	ammswaptypes "github.com/FiboChain/fbc/x/ammswap/types"
 	"github.com/metaofo/fbchain-sdk/types/params"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	ammswaptypes "github.com/zhengjianfeng1103/fbc/x/ammswap/types"
 )
 
 // AddLiquidity adds the number of liquidity of a token pair

@@ -6,16 +6,16 @@ import (
 	"log"
 	"strings"
 
-	"github.com/FiboChain/fbc/app/crypto/ethsecp256k1"
-	"github.com/FiboChain/fbc/app/crypto/hd"
-	exchain "github.com/FiboChain/fbc/app/types"
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	tmamino "github.com/FiboChain/fbc/libs/tendermint/crypto/encoding/amino"
 	"github.com/bartekn/go-bip39"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/metaofo/fbchain-sdk/types/tx"
+	"github.com/zhengjianfeng1103/fbc/app/crypto/ethsecp256k1"
+	"github.com/zhengjianfeng1103/fbc/app/crypto/hd"
+	exchain "github.com/zhengjianfeng1103/fbc/app/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	tmamino "github.com/zhengjianfeng1103/fbc/libs/tendermint/crypto/encoding/amino"
 )
 
 const (

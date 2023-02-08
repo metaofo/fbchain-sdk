@@ -1,7 +1,7 @@
 package types
 
 import (
-	ibcTypes "github.com/FiboChain/fbc/libs/ibc-go/modules/apps/transfer/types"
+	ibcTypes "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/apps/transfer/types"
 )
 
 // const

@@ -2,16 +2,16 @@ package main
 
 import (
 	"encoding/json"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	query2 "github.com/FiboChain/fbc/libs/cosmos-sdk/types/query"
-	client_types "github.com/FiboChain/fbc/libs/ibc-go/modules/core/02-client/types"
-	chantypes "github.com/FiboChain/fbc/libs/ibc-go/modules/core/04-channel/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	gosdk "github.com/metaofo/fbchain-sdk"
 	"github.com/metaofo/fbchain-sdk/exposed"
 	"github.com/metaofo/fbchain-sdk/utils"
-	//secp256k12 "github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys/ibc-key"
-	secp256k12 "github.com/FiboChain/fbc/libs/tendermint/crypto/secp256k1"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	query2 "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types/query"
+	client_types "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/core/02-client/types"
+	chantypes "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/core/04-channel/types"
+	//secp256k12 "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys/ibc-key"
+	secp256k12 "github.com/zhengjianfeng1103/fbc/libs/tendermint/crypto/secp256k1"
 	"log"
 )
 

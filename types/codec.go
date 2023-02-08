@@ -1,10 +1,10 @@
 package types
 
 import (
-	cryptocodec "github.com/FiboChain/fbc/app/crypto/ethsecp256k1"
-	evmtypes "github.com/FiboChain/fbc/app/types"
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
+	cryptocodec "github.com/zhengjianfeng1103/fbc/app/crypto/ethsecp256k1"
+	evmtypes "github.com/zhengjianfeng1103/fbc/app/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
 )
 
 // NewCodec creates a new instance of codec only for gosdk

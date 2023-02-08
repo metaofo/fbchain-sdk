@@ -2,13 +2,11 @@ package gosdk
 
 import (
 	"fmt"
-	ibcTypes "github.com/FiboChain/fbc/libs/ibc-go/modules/apps/transfer/types"
-	feesplitTypes "github.com/FiboChain/fbc/x/feesplit/types"
 	"github.com/metaofo/fbchain-sdk/module/feesplit"
 	"github.com/metaofo/fbchain-sdk/module/ibc"
+	ibcTypes "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/apps/transfer/types"
+	feesplitTypes "github.com/zhengjianfeng1103/fbc/x/feesplit/types"
 
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/codec"
-	farmtypes "github.com/FiboChain/fbc/x/farm/types"
 	"github.com/metaofo/fbchain-sdk/exposed"
 	"github.com/metaofo/fbchain-sdk/module"
 	"github.com/metaofo/fbchain-sdk/module/ammswap"
@@ -35,6 +33,8 @@ import (
 	"github.com/metaofo/fbchain-sdk/module/token"
 	tokentypes "github.com/metaofo/fbchain-sdk/module/token/types"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/codec"
+	farmtypes "github.com/zhengjianfeng1103/fbc/x/farm/types"
 )
 
 // Client - structure of the main client of FbChain GoSDK

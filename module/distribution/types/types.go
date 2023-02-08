@@ -1,7 +1,7 @@
 package types
 
 import (
-	distrtypes "github.com/FiboChain/fbc/x/distribution/types"
+	distrtypes "github.com/zhengjianfeng1103/fbc/x/distribution/types"
 )
 
 // const

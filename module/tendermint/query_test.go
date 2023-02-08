@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	exchain "github.com/FiboChain/fbc/app/types"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	tmbytes "github.com/FiboChain/fbc/libs/tendermint/libs/bytes"
-	tmtypes "github.com/FiboChain/fbc/libs/tendermint/types"
-	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
 	"github.com/golang/mock/gomock"
 	"github.com/metaofo/fbchain-sdk/mocks"
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 	"github.com/stretchr/testify/require"
+	exchain "github.com/zhengjianfeng1103/fbc/app/types"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	tmbytes "github.com/zhengjianfeng1103/fbc/libs/tendermint/libs/bytes"
+	tmtypes "github.com/zhengjianfeng1103/fbc/libs/tendermint/types"
+	stakingtypes "github.com/zhengjianfeng1103/fbc/x/staking/types"
 )
 
 const (

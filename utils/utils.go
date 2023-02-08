@@ -3,9 +3,9 @@ package utils
 import (
 	"fmt"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	stakingcli "github.com/FiboChain/fbc/x/staking/client/cli"
-	stakingtypes "github.com/FiboChain/fbc/x/staking/types"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	stakingcli "github.com/zhengjianfeng1103/fbc/x/staking/client/cli"
+	stakingtypes "github.com/zhengjianfeng1103/fbc/x/staking/types"
 )
 
 // ParseValAddresses parses validator address string to types.ValAddress

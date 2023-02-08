@@ -3,10 +3,10 @@ package distribution
 import (
 	"fmt"
 
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	distrtypes "github.com/FiboChain/fbc/x/distribution/types"
 	"github.com/metaofo/fbchain-sdk/types/params"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	distrtypes "github.com/zhengjianfeng1103/fbc/x/distribution/types"
 )
 
 // SetWithdrawAddr changes the withdraw address of validator to receive rewards

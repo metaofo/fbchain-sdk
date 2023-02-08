@@ -1,7 +1,7 @@
 package types
 
 import (
-	govtypes "github.com/FiboChain/fbc/x/gov/types"
+	govtypes "github.com/zhengjianfeng1103/fbc/x/gov/types"
 )
 
 // const

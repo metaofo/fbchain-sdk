@@ -3,14 +3,14 @@ package exposed
 import (
 	gosdktypes "github.com/metaofo/fbchain-sdk/types"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/types/query"
-	ibcTypes "github.com/FiboChain/fbc/libs/ibc-go/modules/apps/transfer/types"
-	client_types "github.com/FiboChain/fbc/libs/ibc-go/modules/core/02-client/types"
-	chantypes "github.com/FiboChain/fbc/libs/ibc-go/modules/core/04-channel/types"
-	ibcexported "github.com/FiboChain/fbc/libs/ibc-go/modules/core/exported"
-	tmcrypto "github.com/FiboChain/fbc/libs/tendermint/crypto"
-	ctypes "github.com/FiboChain/fbc/libs/tendermint/rpc/core/types"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types/query"
+	ibcTypes "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/apps/transfer/types"
+	client_types "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/core/02-client/types"
+	chantypes "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/core/04-channel/types"
+	ibcexported "github.com/zhengjianfeng1103/fbc/libs/ibc-go/modules/core/exported"
+	tmcrypto "github.com/zhengjianfeng1103/fbc/libs/tendermint/crypto"
+	ctypes "github.com/zhengjianfeng1103/fbc/libs/tendermint/rpc/core/types"
 )
 
 // Ibc shows the expected behavior for inner ibc client

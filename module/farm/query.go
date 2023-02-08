@@ -3,10 +3,10 @@ package farm
 import (
 	"fmt"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	farmtypes "github.com/FiboChain/fbc/x/farm/types"
 	"github.com/metaofo/fbchain-sdk/module/farm/types"
 	"github.com/metaofo/fbchain-sdk/utils"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	farmtypes "github.com/zhengjianfeng1103/fbc/x/farm/types"
 )
 
 // QueryPools gets all farm pools info

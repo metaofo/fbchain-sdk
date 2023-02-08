@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/FiboChain/fbc/libs/cosmos-sdk/types/query"
 	"github.com/metaofo/fbchain-sdk/utils"
+	"github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types/query"
 	"log"
 
 	gosdk "github.com/metaofo/fbchain-sdk"

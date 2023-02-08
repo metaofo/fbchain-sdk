@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/FiboChain/fbc/x/ammswap"
-	ammswaptypes "github.com/FiboChain/fbc/x/ammswap/types"
+	"github.com/zhengjianfeng1103/fbc/x/ammswap"
+	ammswaptypes "github.com/zhengjianfeng1103/fbc/x/ammswap/types"
 )
 
 // const

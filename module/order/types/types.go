@@ -1,8 +1,8 @@
 package types
 
 import (
-	orderkeeper "github.com/FiboChain/fbc/x/order/keeper"
-	ordertypes "github.com/FiboChain/fbc/x/order/types"
+	orderkeeper "github.com/zhengjianfeng1103/fbc/x/order/keeper"
+	ordertypes "github.com/zhengjianfeng1103/fbc/x/order/types"
 )
 
 // const

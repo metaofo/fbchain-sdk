@@ -4,9 +4,9 @@ import (
 	"errors"
 	"strings"
 
-	sdk "github.com/FiboChain/fbc/libs/cosmos-sdk/types"
-	tokentypes "github.com/FiboChain/fbc/x/token/types"
 	"github.com/metaofo/fbchain-sdk/module/token/types"
+	sdk "github.com/zhengjianfeng1103/fbc/libs/cosmos-sdk/types"
+	tokentypes "github.com/zhengjianfeng1103/fbc/x/token/types"
 )
 
 // ParseTransfersStr parses the whole multi-send info string into TransferUnit

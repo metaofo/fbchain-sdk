@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	coretypes "github.com/FiboChain/fbc/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/FiboChain/fbc/libs/tendermint/types"
 	"github.com/metaofo/fbchain-sdk/module/tendermint/types"
 	"github.com/metaofo/fbchain-sdk/types/params"
+	coretypes "github.com/zhengjianfeng1103/fbc/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/zhengjianfeng1103/fbc/libs/tendermint/types"
 )
 
 // QueryBlock gets the block info of a specific height

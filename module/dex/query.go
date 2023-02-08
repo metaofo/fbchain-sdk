@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	dextypes "github.com/FiboChain/fbc/x/dex/types"
 	"github.com/metaofo/fbchain-sdk/module/dex/types"
 	"github.com/metaofo/fbchain-sdk/utils"
+	dextypes "github.com/zhengjianfeng1103/fbc/x/dex/types"
 )
 
 // QueryProducts gets token pair info
