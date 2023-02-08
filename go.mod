@@ -7,7 +7,7 @@ require (
 	github.com/ethereum/go-ethereum v1.10.8
 	github.com/golang/mock v1.6.0
 	github.com/stretchr/testify v1.8.0
-	github.com/zhengjianfeng1103/fbc v0.0.0-20230208063344-8b5f6350b8d2 // indirect
+	github.com/zhengjianfeng1103/fbc v0.0.0-20230208063344-8b5f6350b8d2
 )
 
 replace (
